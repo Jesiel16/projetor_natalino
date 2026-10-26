@@ -1,0 +1,6 @@
+.hero-offer .offer-price{font-size:2.1rem;font-weight:700;margin:.5rem 0;color:#e8ca8c}
+.hero-offer .purchase-conditions{font-size:.85rem;line-height:1.5;max-width:35rem}
+.effect-link{display:inline-block;margin-top:1rem;color:inherit;text-underline-offset:4px}
+.hero-offer .button{white-space:normal;text-align:center;line-height:1.4}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #b7601e;outline-offset:5px}
+@media(max-width:640px){.hero-offer .button{width:100%;box-sizing:border-box;padding:1rem}.hero-offer .offer-price{font-size:2rem}}
