@@ -4,3 +4,5 @@
 .hero-offer .button{white-space:normal;text-align:center;line-height:1.4}
 a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #b7601e;outline-offset:5px}
 @media(max-width:640px){.hero-offer .button{width:100%;box-sizing:border-box;padding:1rem}.hero-offer .offer-price{font-size:2rem}}
+.offer-value{max-width:42rem;margin:1rem auto;line-height:1.65}
+.closing .purchase-conditions{position:relative;z-index:1;max-width:35rem;margin:1rem auto;font-size:.85rem;line-height:1.6}
