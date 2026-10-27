@@ -17,3 +17,39 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #b7
 @media(max-width:600px){.video-shell{width:min(100%,250px)}}
 .icon-arrow{display:inline-block;width:16px;height:16px;min-width:16px;vertical-align:middle;flex-shrink:0;fill:none;stroke:currentColor}
 .icon-play{display:block;width:24px;height:24px;fill:currentColor}
+/* Clear purchase conditions, consistent CTAs and a mobile purchase bar. */
+.purchase-highlights{margin:0 0 16px}
+.shipping-highlight{font-size:15px!important;font-weight:700;line-height:1.45;margin:0!important;color:var(--green)}
+.hero .shipping-highlight,.closing .shipping-highlight{color:var(--gold)}
+.purchase-facts{display:flex;flex-wrap:wrap;gap:7px;list-style:none;margin:10px 0 0;padding:0;font-size:11px;line-height:1.5}
+.purchase-facts li{padding:5px 10px;border:1px solid #94a58d;border-radius:4px}
+.transformation-purchase .purchase-facts,.closing .purchase-facts{justify-content:center}
+.hero .hero-promise{margin-bottom:10px}
+.hero-offer>p:not([class]){font-size:12px;line-height:1.6;margin:0 0 16px;max-width:31rem}
+.hero .button,.transformation-purchase .button,.closing .button{min-height:50px;justify-content:center;font-size:12px;letter-spacing:.25px}
+.purchase-confidence{border-top:1px solid var(--line);padding-top:48px;padding-bottom:48px}
+.purchase-confidence h2{font-size:clamp(32px,3.5vw,46px);margin:15px 0 28px}
+.confidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.confidence-grid article{padding-top:18px;border-top:1px solid var(--line)}
+.confidence-grid h3{font-size:16px;line-height:1.4;margin-bottom:10px}
+.confidence-grid p{font-size:13px;color:var(--muted)}
+.confidence-grid a{display:inline-block;font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:4px;padding:12px 0}
+.mobile-purchase{display:none}
+@media(max-width:600px){
+  html{scroll-padding-top:16px;scroll-padding-bottom:100px}
+  body{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+  .hero{grid-template-areas:"heading" "offer" "media"}
+  .hero h1{font-size:34px}
+  .hero-offer .button{width:100%;font-size:12px}
+  .hero .hero-promise{font-size:11px}
+  .hero .offer-price{margin:0 0 8px}
+  .shipping-highlight{font-size:14px!important}
+  .confidence-grid{grid-template-columns:1fr;gap:20px}
+  .purchase-confidence{padding-top:32px;padding-bottom:32px}
+  .mobile-purchase{display:flex;position:fixed;inset:auto 0 0;z-index:100;align-items:center;justify-content:space-between;gap:10px;padding:12px 5% calc(12px + env(safe-area-inset-bottom,0px));background:var(--cream);color:var(--green);border-top:1px solid var(--line);box-shadow:0 -3px 14px #102c2412}
+  .mobile-purchase>div{min-width:0;flex:1}
+  .mobile-purchase strong{display:block;font-size:19px;line-height:1.3}
+  .mobile-purchase span{display:block;max-width:160px;font-size:10px;line-height:1.35}
+  .mobile-purchase .button{min-height:46px;flex-shrink:0;padding:12px 15px;font-size:11px;white-space:nowrap}
+}
+@media(max-width:360px){.mobile-purchase .button{padding:12px 10px;font-size:10px}.mobile-purchase strong{font-size:17px}}
