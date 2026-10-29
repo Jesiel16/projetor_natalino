@@ -115,3 +115,48 @@
 @media(max-width:1000px){.trust-heading{gap:18px 40px}.trust-seal{grid-template-columns:130px 1fr;padding:25px}.trust-seal img{width:130px}.trust-seal>div{padding-left:20px}.delivery-assurance{grid-template-columns:38px 1fr}.delivery-assurance .button{grid-column:2;justify-self:start}}
 @media(max-width:700px){.confidence{padding-top:66px;padding-bottom:66px}.trust-heading,.trust-seals{grid-template-columns:1fr}.trust-heading{gap:18px;margin-bottom:30px}.trust-heading>.eyebrow{grid-column:auto}.trust-heading h2{font-size:42px}.trust-heading>p:last-child{font-size:13px}.trust-seal{grid-template-columns:105px 1fr;padding:24px 20px;min-height:230px}.trust-seal img{width:105px}.trust-seal>div{padding-left:17px}.trust-seal h3{font-size:23px}.trust-seal p{font-size:10px}.delivery-assurance{grid-template-columns:28px 1fr;padding:24px 20px;gap:16px;margin-bottom:34px}.delivery-star{font-size:24px}.delivery-assurance h3{font-size:23px}.delivery-assurance .button{grid-column:1/-1;width:100%;font-size:9px}.confidence-grid article{padding-right:0}}
 @media(max-width:360px){.trust-seal{grid-template-columns:88px 1fr;padding:21px 16px}.trust-seal img{width:88px}.trust-seal>div{padding-left:13px}.trust-seal h3{font-size:21px}}
+
+/* Clear offer hierarchy: plain language, one primary kit and a secondary alternative. */
+.offer-name{color:var(--gold);font-size:13px;font-weight:800;letter-spacing:.12em;margin-bottom:10px}
+.hero-includes{list-style:none;margin:18px 0;padding:0;display:grid;gap:9px;font-size:14px}
+.hero-includes li:before,.card-checks li:before{content:'✓';color:var(--gold);font-weight:800;margin-right:10px}
+.checkout-help{max-width:430px;margin-top:14px;padding:12px 14px;border-left:3px solid var(--gold);background:#ffffff0b;color:#e9eee5;font-size:13px;line-height:1.55}
+.checkout-help strong{color:var(--cream)}
+.clear-list li{display:grid;gap:4px}
+.clear-list li strong{font-size:15px}
+.clear-list li span{font-size:13px;color:var(--muted);font-weight:400}
+.simple-offer{align-items:start}
+.price-equation{display:grid;grid-template-columns:1fr auto 1fr auto 1.15fr;gap:12px;align-items:center;margin:30px 0;padding:20px;background:#f0ede3;border:1px solid var(--line)}
+.price-equation div{display:grid;gap:5px}
+.price-equation span{font-size:11px;color:var(--muted)}
+.price-equation strong{font:22px var(--serif)}
+.price-equation>b{color:#687856;font-size:22px}
+.price-equation .total{padding-left:14px;border-left:2px solid var(--gold)}
+.price-equation .total strong{color:var(--green);font-size:27px}
+.buy-steps{list-style:none;margin:0;padding:0}
+.buy-steps li{display:grid;grid-template-columns:42px 1fr;gap:14px;padding:16px 0;border-top:1px solid var(--line)}
+.buy-steps li>span{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--green);color:var(--cream);font-weight:800}
+.buy-steps strong{font-size:14px}
+.buy-steps p{font-size:12px;color:var(--muted);margin-top:4px}
+.simple-options{grid-template-columns:1fr}
+.simple-options .purchase-card.complete{transform:none}
+.simple-options .purchase-card h3{font-size:34px;margin-right:100px}
+.card-checks{list-style:none;margin:20px 0;padding:0;display:grid;gap:10px;font-size:14px}
+.simple-options .checkout-help{font-size:12px}
+.essential-alternative{padding:22px 24px;border:1px solid var(--line);background:#f4f1e8}
+.essential-alternative h3{font:24px var(--serif);margin-bottom:8px}
+.essential-alternative p{font-size:13px;color:var(--muted);line-height:1.6}
+.essential-alternative .text-link{margin-top:12px;font-size:12px}
+@media(max-width:700px){
+  .hero h1{font-size:clamp(39px,10vw,54px);line-height:1.03}
+  .hero-includes{font-size:15px}
+  .checkout-help{font-size:14px}
+  .price-equation{grid-template-columns:1fr auto 1fr;gap:10px}
+  .price-equation>b:nth-of-type(2){display:none}
+  .price-equation .total{grid-column:1/-1;border-left:0;border-top:2px solid var(--gold);padding:14px 0 0}
+  .buy-steps strong{font-size:15px}
+  .buy-steps p{font-size:13px}
+  .simple-options .purchase-card h3{margin-right:0;font-size:30px}
+  .card-checks{font-size:15px}
+  .essential-alternative p{font-size:14px}
+}
