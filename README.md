@@ -27,3 +27,5 @@ O Pixel existente foi preservado. O clique em comprar envia CheckoutClick, nunca
 A estratégia atual está em [docs/OFERTA-NATAL-MAGICO.md](docs/OFERTA-NATAL-MAGICO.md). Preço e conversão são hipóteses a medir com tráfego e margem real, não garantias de venda. A proposta anterior foi preservada como histórico.
 
 As imagens ilustrativas das bolas douradas e os prompts usados no ChatGPT estão documentados em [docs/IMAGENS-BOLAS-DOURADAS.md](docs/IMAGENS-BOLAS-DOURADAS.md).
+
+Os selos próprios da campanha, sua condição de uso e os prompts estão documentados em [docs/SELOS-CONFIANCA.md](docs/SELOS-CONFIANCA.md).
