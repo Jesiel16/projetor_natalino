@@ -1,9 +1,9 @@
 /* Mantém o PageView existente. Purchase pertence à confirmação real do pagamento. */
 (() => {
   const product = {
-    content_name: 'Projetor LED Natalino',
+    content_name: 'Natal Mágico em Minutos - Projetor LED Natalino',
     content_type: 'product',
-    value: 179.90,
+    value: 239.90,
     currency: 'BRL'
   };
   const send = (method, event, data) => {
