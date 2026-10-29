@@ -163,3 +163,45 @@ button,.button{-webkit-appearance:none;appearance:none}
   .card-checks{font-size:15px}
   .essential-alternative p{font-size:14px}
 }
+
+/* Two honest choices, with the complete kit carrying the strongest value story. */
+.choice-offer{align-items:start}
+.upgrade-callout{margin:26px 0 0;padding:20px 22px;border-left:4px solid var(--gold);background:#f0ede3}
+.upgrade-callout>span{display:block;font-size:9px;font-weight:800;letter-spacing:.15em;color:#687856}
+.upgrade-callout>strong{display:block;font:32px/1.1 var(--serif);color:var(--green);margin:5px 0}
+.upgrade-callout p{font-size:13px;color:var(--muted);line-height:1.55}
+.upgrade-callout em{color:var(--green);font-weight:700}
+.choice-options{grid-template-columns:1.12fr .88fr;gap:18px}
+.choice-options .purchase-card{display:flex;flex-direction:column;min-width:0}
+.choice-options .purchase-card.complete{transform:translateY(-10px);box-shadow:8px 8px 0 #e4c58b55}
+.choice-kicker{font-size:9px;font-weight:800;letter-spacing:.12em;color:var(--gold);margin-top:2px}
+.choice-promise{min-height:44px;font-size:12px;line-height:1.55;color:#d4decf;margin:4px 0 0}
+.choice-options .card-checks{flex:1}
+.upgrade-price{font-size:12px;line-height:1.5;color:#dbe4d8;margin:10px 0 18px}
+.upgrade-price strong{color:var(--gold)}
+.choice-options .checkout-help{font-size:11px}
+.projector-only{background:#f4f1e8;color:var(--green);border:1px solid var(--line);border-top:3px solid #93a291}
+.projector-only .choice-kicker{color:#687856}
+.projector-only h3{color:var(--green)}
+.projector-only .choice-promise{color:var(--muted)}
+.projector-only .price{color:var(--green)}
+.projector-only .card-checks{color:var(--green)}
+.projector-only .card-checks li:before{color:#687856}
+.projector-only .card-checks .not-included{color:#8c6e63}
+.projector-only .card-checks .not-included:before{content:'×';color:#9a493d}
+.button.outline{background:transparent;color:var(--green);border:1px solid var(--green)}
+.button.outline:hover{background:var(--green);color:var(--cream)}
+.projector-note{font-size:12px;line-height:1.5;color:var(--muted);margin:10px 0 18px}
+.basic-checkout-help{margin-top:14px;padding:12px 0 0;border-top:1px solid var(--line);font-size:11px;line-height:1.55;color:var(--muted)}
+.choice-verdict{grid-column:1/-1;display:grid;grid-template-columns:36px 1fr;gap:12px;align-items:center;padding:18px 20px;background:#e8d29f;color:var(--green)}
+.choice-verdict>span{font-size:25px}
+.choice-verdict p{font-size:13px;line-height:1.55}
+.choice-verdict strong{font-weight:800}
+@media(max-width:700px){
+  .choice-options{grid-template-columns:1fr}
+  .choice-options .purchase-card.complete{transform:none}
+  .choice-promise{min-height:0;font-size:14px}
+  .upgrade-callout p,.upgrade-price,.projector-note{font-size:14px}
+  .choice-options .checkout-help,.basic-checkout-help{font-size:13px}
+  .choice-verdict{grid-column:auto}
+}
