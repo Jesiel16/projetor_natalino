@@ -25,15 +25,19 @@
   const countdownCopy = document.querySelector('[data-countdown-copy]');
   const countdownStatus = document.querySelector('[data-countdown-status]');
   if (countdown && countdownCard) {
-    const countdownKey = 'natal-magico-countdown-end-v1';
+    const countdownKey = 'natal-magico-countdown-end-v2';
+    const legacyCountdownKey = 'natal-magico-countdown-end-v1';
     const tenMinutes = 10 * 60 * 1000;
     let endTime;
     try {
-      endTime = Number(sessionStorage.getItem(countdownKey));
+      endTime = Number(localStorage.getItem(countdownKey));
+      if (!Number.isFinite(endTime) || endTime <= 0) {
+        endTime = Number(sessionStorage.getItem(legacyCountdownKey));
+      }
       if (!Number.isFinite(endTime) || endTime <= 0) {
         endTime = Date.now() + tenMinutes;
-        sessionStorage.setItem(countdownKey, String(endTime));
       }
+      localStorage.setItem(countdownKey, String(endTime));
     } catch {
       endTime = Date.now() + tenMinutes;
     }
