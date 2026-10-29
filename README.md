@@ -25,3 +25,5 @@ Preços e condições foram conferidos no checkout em 29/10/2026. Mantenha preç
 O Pixel existente foi preservado. O clique em comprar envia CheckoutClick, nunca Purchase; a confirmação de pagamento pertence ao checkout. O roteiro salva somente as marcações do checklist no navegador.
 
 A estratégia atual está em [docs/OFERTA-NATAL-MAGICO.md](docs/OFERTA-NATAL-MAGICO.md). Preço e conversão são hipóteses a medir com tráfego e margem real, não garantias de venda. A proposta anterior foi preservada como histórico.
+
+As imagens ilustrativas das bolas douradas e os prompts usados no ChatGPT estão documentados em [docs/IMAGENS-BOLAS-DOURADAS.md](docs/IMAGENS-BOLAS-DOURADAS.md).
