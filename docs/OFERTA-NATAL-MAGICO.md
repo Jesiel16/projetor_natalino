@@ -8,21 +8,21 @@ Transformar a decoração existente em uma cena natalina com movimento e criar u
 
 ## Arquitetura da oferta
 
-### Natal Mágico Essencial — R$ 239,90 à vista
+### Natal Mágico Essencial — R$ 179,90 à vista
 
 - 1 Projetor LED Natalino;
 - manual de instruções;
 - Kit Natal Especial digital com roteiro, convite e cartões para imprimir;
 - frete grátis para todo o Brasil.
 
-O checkout exibe preço anterior de R$ 275,89. O parcelamento observado foi de até 12x de R$ 24,83, com acréscimo.
+O checkout exibe preço anterior de R$ 206,89. O parcelamento observado foi de até 12x de R$ 18,58, com acréscimo.
 
-### Natal Mágico Completo — R$ 294,90 à vista
+### Natal Mágico Completo — R$ 234,90 à vista
 
 - tudo da oferta essencial;
 - conjunto físico de 12 bolas douradas de 6 cm por R$ 55,00.
 
-O conjunto de bolas é um adicional opcional. Para receber a composição completa, o comprador precisa marcar “Leve também” no checkout. Os valores anteriores exibidos no checkout somam R$ 355,89; os valores promocionais somam R$ 294,90.
+O conjunto de bolas é adicionado por meio da opção “Leve também”. Para receber a composição completa, o comprador precisa marcar essa opção no checkout. Os valores anteriores exibidos somam R$ 286,89; os valores promocionais somam R$ 234,90.
 
 ## Comparação usada na página
 

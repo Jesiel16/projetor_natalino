@@ -4,9 +4,9 @@ Landing page estática da oferta de projetor natalino.
 
 - Página: https://projetornatalino.vercel.app/
 - Checkout: https://pay.kaiross.com.br/gt3XULKfwOzV
-- Oferta essencial: R$ 239,90 à vista e frete grátis nacional.
-- Oferta completa: R$ 294,90 à vista, somando o adicional de 12 bolas douradas por R$ 55,00 no checkout.
-- Parcelamento observado para o projetor: até 12x de R$ 24,83, com acréscimo.
+- Oferta essencial: R$ 179,90 à vista e frete grátis nacional.
+- Oferta completa: R$ 234,90 à vista, somando o adicional de 12 bolas douradas por R$ 55,00 no checkout.
+- Parcelamento observado para o projetor: até 12x de R$ 18,58, com acréscimo.
 
 ## Arquivos
 
