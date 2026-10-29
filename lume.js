@@ -1,4 +1,40 @@
 (() => {
+  // Unicode arrows can be rendered as colorful emoji by Safari. Replace them
+  // with font-independent SVG icons while preserving the surrounding text.
+  const arrowPaths = {
+    '↗': ['M4 12 12 4', 'M6 4h6v6'],
+    '↓': ['M8 3v10', 'M4 9l4 4 4-4'],
+    '↶': ['M6 5 2 9l4 4', 'M3 9h7a4 4 0 0 1 4 4']
+  };
+  const arrowPattern = /([↗↓↶])/g;
+  const arrowWalker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  const arrowNodes = [];
+  while (arrowWalker.nextNode()) {
+    if (arrowPattern.test(arrowWalker.currentNode.nodeValue)) arrowNodes.push(arrowWalker.currentNode);
+    arrowPattern.lastIndex = 0;
+  }
+  arrowNodes.forEach(node => {
+    const fragment = document.createDocumentFragment();
+    node.nodeValue.split(arrowPattern).forEach(part => {
+      if (!arrowPaths[part]) {
+        fragment.append(document.createTextNode(part));
+        return;
+      }
+      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      svg.setAttribute('class', 'ui-icon');
+      svg.setAttribute('viewBox', '0 0 16 16');
+      svg.setAttribute('aria-hidden', 'true');
+      svg.setAttribute('focusable', 'false');
+      arrowPaths[part].forEach(pathData => {
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', pathData);
+        svg.append(path);
+      });
+      fragment.append(svg);
+    });
+    node.replaceWith(fragment);
+  });
+
   const image = document.getElementById('comparison-image');
   const label = document.getElementById('comparison-label');
   const status = document.getElementById('comparison-status');
