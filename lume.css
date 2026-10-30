@@ -205,3 +205,4 @@ button,.button{-webkit-appearance:none;appearance:none}
   .choice-options .checkout-help,.basic-checkout-help{font-size:13px}
   .choice-verdict{grid-column:auto}
 }
+.video-status a{color:var(--gold);font-weight:700;text-decoration:underline;text-underline-offset:3px}

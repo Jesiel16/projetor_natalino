@@ -4,25 +4,31 @@
   const status = document.querySelector('.video-status');
   if (!video || !button || !status) return;
 
+  const showFallback = (message) => {
+    status.replaceChildren(document.createTextNode(`${message} `));
+    const link = document.createElement('a');
+    link.href = 'assets/lume-noel-demo-ios.mp4';
+    link.textContent = 'Abrir o vídeo diretamente';
+    link.setAttribute('aria-label', 'Abrir o vídeo diretamente no aparelho');
+    status.append(link, document.createTextNode('.'));
+  };
+
   button.addEventListener('click', async () => {
     status.textContent = 'Carregando vídeo…';
     button.hidden = true;
-    if (!video.getAttribute('src')) {
-      video.src = video.dataset.src;
-      video.load();
-    } else if (video.error) {
+    if (video.error) {
       video.load();
     }
     try {
       await video.play();
     } catch {
       button.hidden = false;
-      status.textContent = 'Não foi possível iniciar. Toque para tentar novamente.';
+      showFallback('Não foi possível iniciar neste navegador.');
     }
   });
   video.addEventListener('playing', () => { status.textContent = ''; });
   video.addEventListener('error', () => {
     button.hidden = false;
-    status.textContent = 'Falha ao carregar o vídeo. Confira sua conexão e tente novamente.';
+    showFallback('Falha ao carregar o vídeo.');
   });
 })();
