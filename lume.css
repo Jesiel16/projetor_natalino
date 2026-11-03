@@ -206,3 +206,174 @@ button,.button{-webkit-appearance:none;appearance:none}
   .choice-verdict{grid-column:auto}
 }
 .video-status a{color:var(--gold);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+
+/* Natal Magico — Casa Acesa brand system. */
+.brand-atelier{--green:#15382f;--cream:#f6efe3;--paper:#fffaf2;--gold:#d9b66f;--ink:#20342e;--muted:#66736d;--line:#d8d0c2;--sage:#e8eadf;--wine:#9f3540;--wine-dark:#762630;--serif:'Fraunces',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;background:#f6efe3;color:var(--ink);font-family:var(--sans)}
+.brand-atelier h1,.brand-atelier h2{font-family:var(--serif);font-weight:400;letter-spacing:-.045em}
+.brand-atelier h3{font-family:var(--sans);font-weight:600}
+.brand-atelier em{font-family:var(--serif);font-weight:500}
+.brand-atelier .eyebrow{color:var(--wine);font-size:9px;font-weight:700;letter-spacing:.19em}
+.brand-atelier .announcement{background:var(--wine);color:#fffaf2;padding:11px 16px;font-weight:600;letter-spacing:.18em}
+.brand-atelier .announcement span{color:#e7c47b}
+.brand-atelier .site-header{position:sticky;top:0;z-index:80;max-width:none;padding:15px max(44px,calc((100vw - 1340px)/2));background:#fffaf2eF;border-bottom:1px solid #d9d0c2;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.brand-atelier .wordmark{gap:12px;padding:0;font-family:var(--serif);font-size:28px;line-height:1}
+.brand-atelier .brand-mark{width:47px;height:47px;flex:0 0 auto}
+.brand-atelier .brand-name{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px}
+.brand-atelier .brand-name em{color:var(--wine)}
+.brand-atelier .brand-name small{flex-basis:100%;font:600 7px/1 var(--sans);letter-spacing:.24em;color:#6d756f}
+.brand-atelier .site-header nav{gap:34px;font-size:11px;font-weight:600}
+.brand-atelier .site-header nav a{position:relative;padding:9px 0}
+.brand-atelier .site-header nav a:after{content:"";position:absolute;left:0;right:100%;bottom:3px;height:1px;background:var(--wine);transition:right .2s}
+.brand-atelier .site-header nav a:hover:after{right:0}
+.brand-atelier .header-buy{min-height:44px;padding:12px 17px;border:1px solid var(--green);background:var(--green);color:#fffaf2;font-size:10px;font-weight:700;letter-spacing:.04em}
+.brand-atelier .button{border-radius:0;min-height:57px;font-weight:700;letter-spacing:.065em;box-shadow:4px 4px 0 transparent;transition:transform .18s,box-shadow .18s,background .18s}
+.brand-atelier .button:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--gold)}
+.brand-atelier .gold{background:var(--wine);color:#fffaf2}
+.brand-atelier .gold:hover{background:var(--wine-dark)}
+.brand-atelier .green{background:var(--green);color:#fffaf2}
+.brand-atelier .hero{position:relative;isolation:isolate;overflow:hidden;background:var(--green);color:#fffaf2}
+.brand-atelier .hero:before{content:"";position:absolute;z-index:-1;right:-7vw;top:70px;width:min(47vw,680px);height:760px;border:1px solid #e5c47f2e;border-radius:360px 360px 0 0;box-shadow:inset 0 0 0 18px #15382f,inset 0 0 0 19px #e5c47f1c;transform:rotate(3deg)}
+.brand-atelier .hero:after{content:"CASA ACESA · EDIÇÃO 2026";position:absolute;right:23px;top:50%;font-size:8px;font-weight:700;letter-spacing:.28em;color:#d9b66f8c;writing-mode:vertical-rl}
+.brand-atelier .hero-inner{max-width:1340px;grid-template-columns:1.13fr .87fr;column-gap:90px;row-gap:30px;padding:68px 54px 50px;align-items:center}
+.brand-atelier .hero-heading{position:relative}
+.brand-atelier .hero-heading:before{content:"NM / 01";position:absolute;left:-2px;top:-32px;color:#d9b66f80;font:600 8px var(--sans);letter-spacing:.2em}
+.brand-atelier .hero .eyebrow{color:var(--gold)}
+.brand-atelier .hero h1{max-width:710px;margin:20px 0 23px;font-size:clamp(61px,6.4vw,92px);line-height:.95;text-wrap:balance}
+.brand-atelier .hero h1 em{display:block;color:var(--gold)}
+.brand-atelier .hero .intro{max-width:600px;color:#e8eee9;font-size:16px;line-height:1.7}
+.brand-atelier .hero-signature{display:flex;flex-wrap:wrap;gap:10px 17px;align-items:center;margin-top:27px;padding:14px 0;border-block:1px solid #d9b66f33;color:#dce4df;font-size:8px;font-weight:700;letter-spacing:.1em}
+.brand-atelier .hero-signature span{color:var(--gold);font-family:var(--serif);font-size:13px;font-style:italic;letter-spacing:0}
+.brand-atelier .hero-media{position:relative;padding:17px 17px 24px;border:1px solid #d9b66f66;background:#0c2b23}
+.brand-atelier .hero-media:before{content:"DEMONSTRAÇÃO · 25 SEGUNDOS";position:absolute;left:-37px;top:150px;color:#d9b66f;font-size:7px;font-weight:700;letter-spacing:.22em;writing-mode:vertical-rl;transform:rotate(180deg)}
+.brand-atelier .video-shell{max-width:365px;border-radius:0;box-shadow:0 0 0 1px #d9b66f40,12px 12px 0 #9f3540}
+.brand-atelier .play-circle{width:72px;height:72px;background:var(--wine);color:#fffaf2;box-shadow:0 0 0 7px #fffaf229}
+.brand-atelier .hero-media figcaption,.brand-atelier .video-status{max-width:365px;color:#c8d4cd;margin-top:23px}
+.brand-atelier .hero-offer{position:relative;max-width:610px;padding:25px 28px 24px;background:#f7efe1;color:var(--green);border-left:6px solid var(--wine);box-shadow:10px 10px 0 #071e1850}
+.brand-atelier .hero-offer:after{content:"EDIÇÃO LIMITADA DE NATAL";position:absolute;right:18px;top:18px;color:#8c7260;font-size:7px;font-weight:700;letter-spacing:.15em}
+.brand-atelier .offer-name{color:var(--wine);font-size:9px;letter-spacing:.17em}
+.brand-atelier .bf-price{margin:8px 0 5px}
+.brand-atelier .bf-price>span{color:#6b746f}
+.brand-atelier .bf-price strong{background:var(--wine);color:#fffaf2}
+.brand-atelier .hero .price{color:var(--green);font-family:var(--serif);font-size:47px;font-variant-numeric:tabular-nums}
+.brand-atelier .hero-includes{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:17px 0;border-block:1px solid #d7cdbd}
+.brand-atelier .hero-includes li{padding:10px 9px;border-right:1px solid #d7cdbd;font-size:10px;line-height:1.4}
+.brand-atelier .hero-includes li:last-child{border-right:0}
+.brand-atelier .countdown-card{display:grid;grid-template-columns:1fr auto;align-items:center;gap:3px 18px;max-width:none;margin:14px 0;background:var(--green);border:0;padding:13px 16px}
+.brand-atelier .countdown-card .eyebrow{grid-column:1;color:var(--gold)}
+.brand-atelier .countdown{grid-column:2;grid-row:1/3;margin:0;color:#fffaf2;font-size:34px}
+.brand-atelier .countdown-card p{grid-column:1;color:#cdd8d2}
+.brand-atelier .hero-offer .button{width:100%;max-width:none}
+.brand-atelier .checkout-help{background:transparent;border-left:0;padding:13px 0 0;color:#52615a}
+.brand-atelier .hero-offer .light-link{color:var(--green);font-weight:700}
+.brand-atelier .hero-bottom{max-width:1232px;margin:auto;padding:18px 0;border-top:1px solid #d9b66f45;color:var(--gold)}
+.brand-atelier .benefit-strip{gap:0;padding:0;border-bottom:1px solid var(--line);background:var(--paper)}
+.brand-atelier .benefit-strip span{flex:1;max-width:330px;padding:25px 30px;border-inline-start:1px solid var(--line);font-size:11px;font-weight:600}
+.brand-atelier .benefit-strip span:last-child{border-inline-end:1px solid var(--line)}
+.brand-atelier .benefit-strip span:before{display:block;color:var(--wine);font:italic 18px var(--serif);margin-bottom:4px}
+.brand-atelier .benefit-strip span:nth-child(1):before{content:"01"}.brand-atelier .benefit-strip span:nth-child(2):before{content:"02"}.brand-atelier .benefit-strip span:nth-child(3):before{content:"03"}
+.brand-atelier .benefit-strip b{display:none}
+.brand-atelier .section{max-width:1260px;padding-top:104px;padding-bottom:104px}
+.brand-atelier .story{position:relative;gap:100px}
+.brand-atelier .story:before{content:"NOSSA IDEIA DE NATAL";position:absolute;left:-30px;top:110px;color:#9f354080;font-size:7px;font-weight:700;letter-spacing:.22em;writing-mode:vertical-rl;transform:rotate(180deg)}
+.brand-atelier .story h2{font-size:clamp(44px,4.8vw,66px)}
+.brand-atelier .story-photo{position:relative}
+.brand-atelier .story-photo:before{content:"";position:absolute;inset:18px -18px -18px 18px;background:var(--wine);z-index:-1}
+.brand-atelier .story-photo img{border-radius:0;filter:saturate(.88) contrast(1.03)}
+.brand-atelier .effect{border-top:1px solid var(--line)}
+.brand-atelier .comparison-switch button{border-radius:0;font-weight:600}
+.brand-atelier .comparison-switch button.active{background:var(--wine);border-color:var(--wine)}
+.brand-atelier .comparison-figure img{border-radius:0;background:#dedfd5}
+.brand-atelier .image-tag{border-radius:0;background:var(--wine);color:#fffaf2;font-weight:700;letter-spacing:.08em}
+.brand-atelier .steps-band{background:var(--wine);color:#fffaf2}
+.brand-atelier .steps-band .eyebrow{color:#f0d39a}
+.brand-atelier .steps-band h2 em{color:#f0d39a}
+.brand-atelier .steps{gap:0;border-top:1px solid #fff5e438;border-bottom:1px solid #fff5e438}
+.brand-atelier .steps article{padding:32px;border-right:1px solid #fff5e438}
+.brand-atelier .steps article:last-child{border-right:0}
+.brand-atelier .steps article>span{color:#f0d39a;border:0}
+.brand-atelier .steps p{color:#f3e6df}
+.brand-atelier .product-photo img{border-radius:0;box-shadow:-14px 14px 0 var(--green)}
+.brand-atelier .check-list li:before{color:var(--wine)}
+.brand-atelier .guide-band{background:#e9dfcf;border-color:#d1c5b2}
+.brand-atelier .guide-cover{border-left-color:var(--wine);box-shadow:12px 12px 0 #9f354038;transform:rotate(-2deg)}
+.brand-atelier .experience-compare{background:#eee5d7;border-color:#d7cabb}
+.brand-atelier .experience-card{box-shadow:none;border:1px solid #cec2b2}
+.brand-atelier .experience-card.magic{background:var(--green)}
+.brand-atelier .experience-media figcaption{border-radius:0}
+.brand-atelier .gold-kit{background:var(--green);color:#fffaf2}
+.brand-atelier .gold-kit .eyebrow{color:var(--gold)}
+.brand-atelier .gold-kit h2 em{color:var(--gold)}
+.brand-atelier .gold-kit-copy>p:not(.eyebrow),.brand-atelier .illustrative-note{color:#d2ddd7}
+.brand-atelier .gold-facts{border-color:#ffffff2b}
+.brand-atelier .offer{position:relative;max-width:1320px;margin:84px auto;padding:78px 60px;background:var(--paper);border:1px solid var(--line)}
+.brand-atelier .offer:before{content:"CASA ACESA / ESCOLHA SUA EDIÇÃO";position:absolute;left:28px;top:22px;color:#9f3540;font-size:7px;font-weight:700;letter-spacing:.2em}
+.brand-atelier .upgrade-callout{background:#efe5d5;border-color:#cdbfae}
+.brand-atelier .purchase-card{border:0;box-shadow:none}
+.brand-atelier .choice-options .purchase-card.complete{background:var(--green);box-shadow:8px 8px 0 var(--gold)}
+.brand-atelier .recommended{background:var(--wine);color:#fffaf2}
+.brand-atelier .projector-only{background:#f2ede4;color:var(--green);border:1px solid #d3cabb}
+.brand-atelier .projector-only .price{color:var(--green)}
+.brand-atelier .button.outline{border-color:var(--green);color:var(--green)}
+.brand-atelier .choice-verdict{background:#e8d5ae}
+.brand-atelier .trust-seal{border-radius:0;background:#ede6d9;border:1px solid var(--line)}
+.brand-atelier .delivery-assurance{border-radius:0;background:var(--wine);color:#fffaf2}
+.brand-atelier .delivery-assurance .eyebrow{color:#f0d39a}
+.brand-atelier .delivery-assurance p{color:#f5e7df}
+.brand-atelier .questions details{border-color:#cfc6b7}
+.brand-atelier .closing{position:relative;overflow:hidden;background:var(--wine);padding:88px 25px}
+.brand-atelier .closing:before,.brand-atelier .closing:after{content:"";position:absolute;top:34px;width:260px;height:520px;border:1px solid #f0d39a38;border-radius:160px 160px 0 0}
+.brand-atelier .closing:before{left:-90px}.brand-atelier .closing:after{right:-90px}
+.brand-atelier .closing-mark{display:block;width:72px;height:72px;margin:0 auto 25px}
+.brand-atelier .closing>.eyebrow,.brand-atelier .closing h2 em,.brand-atelier .closing .closing-price{color:#f0d39a}
+.brand-atelier .closing .gold{background:#fffaf2;color:var(--wine)}
+.brand-atelier .site-footer{max-width:1340px;align-items:flex-start;padding-top:48px;padding-bottom:48px}
+.brand-atelier .site-footer .brand-mark{width:42px;height:42px}
+.brand-atelier .mobile-purchase{background:#fffaf2;border-top:1px solid #d3c9b9}
+.brand-atelier .mobile-purchase .gold{background:var(--wine);color:#fffaf2}
+@media(max-width:1000px){
+  .brand-atelier .hero-inner{column-gap:42px;padding-left:34px;padding-right:34px}
+  .brand-atelier .hero h1{font-size:64px}
+  .brand-atelier .hero-includes{grid-template-columns:1fr}
+  .brand-atelier .hero-includes li{border-right:0;border-bottom:1px solid #d7cdbd}
+  .brand-atelier .hero-includes li:last-child{border-bottom:0}
+  .brand-atelier .offer{margin:50px 24px;padding:68px 38px}
+}
+@media(max-width:700px){
+  .brand-atelier .announcement{font-size:7px;padding:9px 8px}
+  .brand-atelier .site-header{padding:11px 16px}
+  .brand-atelier .brand-mark{width:39px;height:39px}
+  .brand-atelier .wordmark{font-size:21px;gap:9px}
+  .brand-atelier .brand-name small{font-size:6px}
+  .brand-atelier .header-buy{min-height:39px;padding:10px 11px;font-size:8px}
+  .brand-atelier .hero:before{right:-72%;top:160px;width:130vw;height:650px}
+  .brand-atelier .hero:after{display:none}
+  .brand-atelier .hero-inner{padding:46px 20px 30px;gap:25px}
+  .brand-atelier .hero-heading:before{top:-26px}
+  .brand-atelier .hero h1{font-size:clamp(49px,14vw,65px);margin:17px 0;line-height:.95}
+  .brand-atelier .hero .intro{font-size:14px;line-height:1.65}
+  .brand-atelier .hero-signature{display:grid;grid-template-columns:auto 1fr;gap:6px 11px;margin-top:21px}
+  .brand-atelier .hero-media{width:calc(100% - 18px);padding:12px 12px 19px;margin-left:0}
+  .brand-atelier .hero-media:before{display:none}
+  .brand-atelier .video-shell{max-width:295px;box-shadow:0 0 0 1px #d9b66f40,8px 8px 0 #9f3540}
+  .brand-atelier .hero-offer{padding:23px 19px 20px;border-left-width:4px}
+  .brand-atelier .hero-offer:after{display:none}
+  .brand-atelier .hero .price{font-size:43px}
+  .brand-atelier .hero-includes{grid-template-columns:1fr 1fr}
+  .brand-atelier .hero-includes li{border-right:1px solid #d7cdbd}
+  .brand-atelier .hero-includes li:nth-child(2){border-right:0}
+  .brand-atelier .countdown{font-size:30px}
+  .brand-atelier .hero-bottom{margin:0 20px}
+  .brand-atelier .benefit-strip{align-items:stretch}
+  .brand-atelier .benefit-strip span{max-width:none;padding:14px 20px;border-inline:0;border-bottom:1px solid var(--line)}
+  .brand-atelier .section{padding-top:66px;padding-bottom:66px}
+  .brand-atelier .story:before{display:none}
+  .brand-atelier .story h2{font-size:42px}
+  .brand-atelier .story-photo:before{inset:12px -10px -10px 12px}
+  .brand-atelier .steps{border-bottom:0}
+  .brand-atelier .steps article{padding:23px 0;border-right:0;border-bottom:1px solid #fff5e438}
+  .brand-atelier .offer{margin:28px 12px;padding:62px 18px 36px}
+  .brand-atelier .choice-options .purchase-card.complete{box-shadow:6px 6px 0 var(--gold)}
+  .brand-atelier .closing{padding:70px 20px}
+  .brand-atelier .closing:before,.brand-atelier .closing:after{display:none}
+  .brand-atelier .site-footer .wordmark{font-size:24px}
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Selo Natal Mágico</title>
+  <circle cx="32" cy="32" r="30.5" fill="#15382f" stroke="#d9b66f"/>
+  <path d="M19.5 49V30.5C19.5 21.4 25 15 32 15s12.5 6.4 12.5 15.5V49" fill="none" stroke="#f7efe1" stroke-width="2.4"/>
+  <path d="M24 49V31c0-5.9 3.3-10.2 8-10.2S40 25.1 40 31v18" fill="#a53b45" stroke="#d9b66f" stroke-width="1.4"/>
+  <path d="M32 24.5v21M24.8 35h14.4" stroke="#f7efe1" stroke-width="1.2" opacity=".72"/>
+  <path d="M31.9 7.8v5.1M29.35 10.35h5.1M49.2 16.1l-2.7 2.7M47.85 14.75l2.7 2.7" stroke="#d9b66f" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
