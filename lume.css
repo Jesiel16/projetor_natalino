@@ -249,7 +249,7 @@ button,.button{-webkit-appearance:none;appearance:none}
 .brand-atelier .play-circle{width:72px;height:72px;background:var(--wine);color:#fffaf2;box-shadow:0 0 0 7px #fffaf229}
 .brand-atelier .hero-media figcaption,.brand-atelier .video-status{max-width:365px;color:#c8d4cd;margin-top:23px}
 .brand-atelier .hero-offer{position:relative;max-width:610px;padding:25px 28px 24px;background:#f7efe1;color:var(--green);border-left:6px solid var(--wine);box-shadow:10px 10px 0 #071e1850}
-.brand-atelier .hero-offer:after{content:"EDIÇÃO LIMITADA DE NATAL";position:absolute;right:18px;top:18px;color:#8c7260;font-size:7px;font-weight:700;letter-spacing:.15em}
+.brand-atelier .hero-offer:after{content:"EDIÇÃO ESPECIAL DE NATAL";position:absolute;right:18px;top:18px;color:#8c7260;font-size:7px;font-weight:700;letter-spacing:.15em}
 .brand-atelier .offer-name{color:var(--wine);font-size:9px;letter-spacing:.17em}
 .brand-atelier .bf-price{margin:8px 0 5px}
 .brand-atelier .bf-price>span{color:#6b746f}
