@@ -516,6 +516,8 @@ button,.button{-webkit-appearance:none;appearance:none}
   .ecommerce-store .benefit-strip{align-items:stretch}
   .ecommerce-store .benefit-strip span{max-width:none;padding:14px 20px;border:0;border-bottom:1px solid var(--line)}
   .ecommerce-store .story,.ecommerce-store .effect,.ecommerce-store .product,.ecommerce-store .offer,.ecommerce-store .confidence,.ecommerce-store .faq{margin:18px 10px;padding:38px 20px;border-radius:9px}
+  .ecommerce-store .offer{grid-template-columns:1fr;gap:30px}
+  .ecommerce-store .offer-story,.ecommerce-store .offer-options{min-width:0;width:100%}
   .ecommerce-store .story h2,.ecommerce-store .product h2,.ecommerce-store .faq h2{font-size:38px}
   .ecommerce-store .steps article{padding:18px}
   .ecommerce-store .guide-band .section{padding-left:20px;padding-right:20px}
