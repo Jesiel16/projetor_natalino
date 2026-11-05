@@ -244,7 +244,7 @@ button,.button{-webkit-appearance:none;appearance:none}
 .brand-atelier .hero-signature{display:flex;flex-wrap:wrap;gap:10px 17px;align-items:center;margin-top:27px;padding:14px 0;border-block:1px solid #d9b66f33;color:#dce4df;font-size:8px;font-weight:700;letter-spacing:.1em}
 .brand-atelier .hero-signature span{color:var(--gold);font-family:var(--serif);font-size:13px;font-style:italic;letter-spacing:0}
 .brand-atelier .hero-media{position:relative;padding:17px 17px 24px;border:1px solid #d9b66f66;background:#0c2b23}
-.brand-atelier .hero-media:before{content:"DEMONSTRAÇÃO · 25 SEGUNDOS";position:absolute;left:-37px;top:150px;color:#d9b66f;font-size:7px;font-weight:700;letter-spacing:.22em;writing-mode:vertical-rl;transform:rotate(180deg)}
+.brand-atelier .hero-media:before{content:"APRESENTAÇÃO · 24 SEGUNDOS";position:absolute;left:-37px;top:150px;color:#d9b66f;font-size:7px;font-weight:700;letter-spacing:.22em;writing-mode:vertical-rl;transform:rotate(180deg)}
 .brand-atelier .video-shell{max-width:365px;border-radius:0;box-shadow:0 0 0 1px #d9b66f40,12px 12px 0 #9f3540}
 .brand-atelier .play-circle{width:72px;height:72px;background:var(--wine);color:#fffaf2;box-shadow:0 0 0 7px #fffaf229}
 .brand-atelier .hero-media figcaption,.brand-atelier .video-status{max-width:365px;color:#c8d4cd;margin-top:23px}
