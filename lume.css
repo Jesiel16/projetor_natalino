@@ -399,6 +399,7 @@ button,.button{-webkit-appearance:none;appearance:none}
   .brand-atelier .hero-includes li{border-right:0;border-bottom:1px solid #d7cdbd}
   .brand-atelier .hero-includes li:last-child{border-bottom:0}
   .brand-atelier .price-equation{padding:16px}
+  .brand-atelier .questions summary{gap:10px;overflow-wrap:anywhere}
   .brand-atelier .trust-seal{grid-template-columns:92px minmax(0,1fr);padding:22px 16px}
   .brand-atelier .trust-seal img{width:92px}
   .brand-atelier .trust-seal>div{padding-left:14px}
