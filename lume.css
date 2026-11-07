@@ -356,7 +356,7 @@ button,.button{-webkit-appearance:none;appearance:none}
   .brand-atelier .brand-mark{width:39px;height:39px}
   .brand-atelier .wordmark{font-size:21px;gap:9px}
   .brand-atelier .brand-name small{font-size:6px}
-  .brand-atelier .header-buy{min-height:39px;padding:10px 11px;font-size:8px}
+  .brand-atelier .header-buy{min-height:44px;padding:10px 11px;font-size:8px}
   .brand-atelier .hero:before{right:-72%;top:160px;width:130vw;height:650px}
   .brand-atelier .hero:after{display:none}
   .brand-atelier .hero-inner{grid-template-columns:minmax(0,1fr);grid-template-areas:"heading" "media" "offer";padding:46px 20px 30px;gap:25px}
@@ -404,7 +404,7 @@ button,.button{-webkit-appearance:none;appearance:none}
   .brand-atelier .trust-seal>div{padding-left:14px}
   .brand-atelier .trust-seal h3{font-size:21px}
   .brand-atelier .mobile-purchase>div{min-width:0}
-  .brand-atelier .mobile-purchase .button{flex:0 0 auto}
+  .brand-atelier .mobile-purchase .button{flex:0 0 auto;min-width:104px;font-size:9px}
 }
 @media(max-width:340px){
   .brand-atelier .brand-mark{width:34px;height:34px}
@@ -415,4 +415,5 @@ button,.button{-webkit-appearance:none;appearance:none}
   .brand-atelier .trust-seal{grid-template-columns:1fr;text-align:center}
   .brand-atelier .trust-seal img{width:112px;margin-inline:auto}
   .brand-atelier .trust-seal>div{padding:15px 0 0;border-left:0;border-top:1px solid #cfc2af}
+  .brand-atelier .mobile-purchase .button{min-width:96px}
 }
