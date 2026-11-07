@@ -314,6 +314,7 @@ button,.button{-webkit-appearance:none;appearance:none}
 .brand-atelier .projector-only{background:#f2ede4;color:var(--green);border:1px solid #d3cabb}
 .brand-atelier .projector-only .price{color:var(--green)}
 .brand-atelier .button.outline{border-color:var(--green);color:var(--green)}
+.brand-atelier .button.outline:is(:hover,:focus-visible,:active){background:var(--green);color:#fffaf2}
 .brand-atelier .choice-verdict{background:#e8d5ae}
 .brand-atelier .trust-seal{border-radius:0;background:#ede6d9;border:1px solid var(--line);color:var(--green)}
 .brand-atelier .trust-seal>div{border-left-color:#cfc2af}
