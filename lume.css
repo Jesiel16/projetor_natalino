@@ -323,7 +323,7 @@ button,.button{-webkit-appearance:none;appearance:none}
 .brand-atelier .delivery-assurance .eyebrow{color:#f0d39a}
 .brand-atelier .delivery-assurance p{color:#f5e7df}
 .brand-atelier .questions details{border-color:#cfc6b7}
-.brand-atelier summary{gap:0}
+.brand-atelier summary{gap:0;padding-inline-end:10px}
 .brand-atelier .closing{position:relative;overflow:hidden;background:var(--wine);padding:88px 25px}
 .brand-atelier .closing:before,.brand-atelier .closing:after{content:"";position:absolute;top:34px;width:260px;height:520px;border:1px solid #f0d39a38;border-radius:160px 160px 0 0}
 .brand-atelier .closing:before{left:-90px}.brand-atelier .closing:after{right:-90px}
