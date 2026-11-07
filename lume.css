@@ -359,14 +359,15 @@ button,.button{-webkit-appearance:none;appearance:none}
   .brand-atelier .header-buy{min-height:39px;padding:10px 11px;font-size:8px}
   .brand-atelier .hero:before{right:-72%;top:160px;width:130vw;height:650px}
   .brand-atelier .hero:after{display:none}
-  .brand-atelier .hero-inner{padding:46px 20px 30px;gap:25px}
+  .brand-atelier .hero-inner{grid-template-columns:minmax(0,1fr);grid-template-areas:"heading" "media" "offer";padding:46px 20px 30px;gap:25px}
+  .brand-atelier .hero-heading,.brand-atelier .hero-media,.brand-atelier .hero-offer{width:100%;max-width:100%;min-width:0}
   .brand-atelier .hero-heading:before{top:-26px}
   .brand-atelier .hero h1{font-size:clamp(49px,14vw,65px);margin:17px 0;line-height:.95}
   .brand-atelier .hero .intro{font-size:14px;line-height:1.65}
   .brand-atelier .hero-signature{display:grid;grid-template-columns:auto 1fr;gap:6px 11px;margin-top:21px}
-  .brand-atelier .hero-media{width:calc(100% - 18px);padding:12px 12px 19px;margin-left:0}
+  .brand-atelier .hero-media{width:100%;padding:12px 12px 19px;margin-left:0;box-sizing:border-box}
   .brand-atelier .hero-media:before{display:none}
-  .brand-atelier .video-shell{max-width:295px;box-shadow:0 0 0 1px #d9b66f40,8px 8px 0 #9f3540}
+  .brand-atelier .video-shell{width:min(100%,295px);max-width:295px;box-shadow:0 0 0 1px #d9b66f40,8px 8px 0 #9f3540}
   .brand-atelier .hero-offer{padding:23px 19px 20px;border-left-width:4px}
   .brand-atelier .hero-offer:after{display:none}
   .brand-atelier .hero .price{font-size:43px}
