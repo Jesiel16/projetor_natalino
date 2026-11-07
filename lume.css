@@ -420,3 +420,13 @@ button,.button{-webkit-appearance:none;appearance:none}
   .brand-atelier .trust-seal>div{padding:15px 0 0;border-left:0;border-top:1px solid #cfc2af}
   .brand-atelier .mobile-purchase .button{min-width:96px}
 }
+
+/* Preços parcelados: valor mensal em destaque com total transparente. */
+.installment-caption{margin:12px 0 3px;font-size:9px;font-weight:800;letter-spacing:.14em;line-height:1.3}
+.total-price{margin:5px 0 0;font-size:10px;line-height:1.45;opacity:.82}
+.hero-offer .installment-caption{color:var(--green)}
+.hero-offer .total-price{color:#52615a}
+.purchase-card .installment-caption{color:var(--gold)}
+.purchase-card .total-price{color:#d4decf}
+.projector-only .installment-caption{color:var(--green)}
+.projector-only .total-price{color:var(--muted)}
